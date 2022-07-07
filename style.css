@@ -1,0 +1,108 @@
+header {
+
+	overflow:hidden;
+	/* position: fixed; */
+	background: rgba(255, 192, 203, 0.39);
+	width: 100%;
+	border-bottom: 4px solid purple;
+	border-top:4px solid purple;
+}
+
+nav {
+	float:right;
+	padding: 5px;	
+	
+}
+
+
+nav ul li {
+	display: inline-block;
+	padding:10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.topnav input[type=text]{
+	float: right;
+	padding: 6px;
+	margin-top: 6px;
+	margin-right: 6px;
+	font-size: 14px;
+	border: solid;
+}
+
+ #search {
+	float: right;
+	padding: 3px;
+	border: solid;
+	margin-top: 8px;
+	margin-right: 0;
+	margin-bottom: 0px;
+
+}
+
+#animal{
+	float: left;
+	padding: 1px;
+	border: solid;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: blueviolet;
+}
+
+.topnav a.active {
+	background-color: #f321c6;
+	color: white;
+}
+
+footer {
+	position:fixed;
+	width:100%;
+	text-align: center;
+	padding: 3px;
+	bottom:0;
+	background-color: rgba(165, 23, 165, 0.306);
+	color: white;
+  }
+
+  footer ul li {
+	display: inline-block;
+	padding:10px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background-color: rgba(143, 13, 152, 0.418);
+}
+
+footer a:hover {
+	background-color: #ddd;
+	color: blueviolet;
+}
+
+footer a.active {
+	background-color: #f321c6;
+	color: white;
+}
+
+h1{
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+}
+
+p{
+	font-family: 'Arima', cursive;
+	text-align: center;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
